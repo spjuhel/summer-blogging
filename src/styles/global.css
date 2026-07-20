@@ -50,19 +50,19 @@
 :root {
 	--radius: 0.625rem;
 	--background: oklch(0.99 0.004 285);
-	--foreground: oklch(0.20 0.03 285);
+	--foreground: oklch(0.1921 0.0444 69);
 	--card: oklch(1 0.002 285);
 	--card-foreground: oklch(0.20 0.03 285);
 	--popover: oklch(1 0.002 285);
 	--popover-foreground: oklch(0.20 0.03 285);
 	--primary: oklch(0.57 0.198 37);
-	--primary-foreground: oklch(0.99 0.005 285);
+	--primary-foreground: oklch(0.1921 0.0444 69);
 	--secondary: oklch(0.96 0.01 285);
-	--secondary-foreground: oklch(0.30 0.04 285);
+	--secondary-foreground: oklch(0.1921 0.0444 69);
 	--muted: oklch(0.96 0.01 285);
-	--muted-foreground: oklch(0.48 0.03 285);
+	--muted-foreground: oklch(0.395 0.0123 69);
 	--accent: oklch(0.95 0.02 285);
-	--accent-foreground: oklch(0.30 0.05 285);
+	--accent-foreground: oklch(0.1921 0.0444 69);
 	--destructive: oklch(0.577 0.245 27.325);
 	--border: oklch(0.90 0.012 285);
 	--input: oklch(0.90 0.012 285);
@@ -134,10 +134,10 @@
 	--tw-prose-td-borders: var(--border);
 }
 
-@keyframes twinkle {
+/* @keyframes twinkle {
 	0%, 100% { opacity: 0.25; }
 	50% { opacity: 0.9; }
-}
+} */
 @media (prefers-reduced-motion: no-preference) {
 	.star-twinkle { animation: twinkle var(--twinkle-dur, 4s) ease-in-out infinite; animation-delay: var(--d, 0s); }
 }
