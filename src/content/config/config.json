@@ -5,5 +5,11 @@
     "siteOwner": "Samuel Juhel",
     "logo": ""
   },
+  "nav": [
+    {
+      "title": "Blog",
+      "link": "/blog"
+    }
+  ],
   "footerStarfield": false
 }
